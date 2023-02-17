@@ -8,10 +8,12 @@
 body{
     font-size: 100%;
     background: #EECDA3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+/*Página Inicial*/
 
 .cabecalho{
     display: flex;
@@ -43,7 +45,6 @@ background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Fi
 .conteudo{
     border-top: 0.4px solid azure;
     margin-bottom: 48px;
-
 }
 
 .conteudo-principal{
@@ -51,15 +52,12 @@ background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Fi
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
     gap: 32px;
-
-
 }
 
 .conteudo-principal-escrito-titulo{
@@ -140,5 +138,81 @@ background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Fi
     height: 48px;
     display: block;
     margin: 0 auto;
+
+}
+
+/*Página História*/
+
+.conteudo-hist{
+    border-top: 0.4px solid azure;
+    margin-bottom: 48px;
+}
+
+.conteudo-hist-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.conteudo-hist-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.titulo-hist{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 72px;
+    font-family: 'Carter One', cursive;
+    color: azure;
+    font-weight: 400;
+}
+
+.subtitulo-hist{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gudea', sans-serif;
+    color: azure;
+    font-weight: 400;
+}
+
+.paragrafo-principal-hist{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    font-family: 'Gudea', sans-serif;
+    color: azure;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.principal-hist-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    margin-right: 8%;
+    height: 300px;
+    
+
+}
+
+.secundario-hist{
+
+}
+
+.secundario-titulo-hist{
+
+}
+
+.secundario-paragrafo-hist{
+
+}
+
+.secundario-hist-img{
 
 }
