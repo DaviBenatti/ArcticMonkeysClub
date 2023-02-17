@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #EECDA3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img{
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 60px;
+}
+
+.menu-item{
+    font-size: 30px;
+    font-family: 'Gudea', sans-serif;
+    color: azure;
+}
+
+.menu-item:hover{
+    color: antiquewhite;
+}
+
+.conteudo{
+    border-top: 0.4px solid azure;
+    margin-bottom: 48px;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 72px;
+    color: azure;
+
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Gudea', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: azure;
+
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: azure;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Gudea', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #EF629F;
+
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: #EF629F;
+    color: azure;
+
+}
+
+.conteudo-principal-img{
+    height: 600px;
+    padding-top: 100px;
+
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 100px;
+
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid azure;
+    padding-top: 48px;
+    font-family: 'Carter One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: azure;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Gudea', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: azure;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid azure;
+
+}
+
+.rodape-img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+
+}
